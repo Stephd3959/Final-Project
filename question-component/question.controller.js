@@ -2,7 +2,6 @@
   angular.module('app')
   .controller("Qctrl", function(){
     var $ctrl = this;
-    $ctrl.content="";
     $ctrl.start=0;
     $ctrl.questions = [
       {
@@ -33,8 +32,11 @@
         src3: "o",
         src4: "p"
       }];
+      $ctrl.content= $ctrl.questions[$ctrl.start];
+
       $ctrl.nextQuestion = function () {
-        $ctrl.content = $ctrl.questions[0];
+        $ctrl.start = $ctrl.start +1;
+        $ctrl.content = $ctrl.questions[$ctrl.start];
       };
   });
 })();

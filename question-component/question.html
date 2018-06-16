@@ -1,2 +1,6 @@
 <a href="/"><button type="button">Start Over</button></a>
-<h1>{{$ctrl.questions[$ctrl.start]}}</h1>
+<h1>{{ $ctrl.content.question }}</h1>
+<div ng-click="$ctrl.nextQuestion()">{{ $ctrl.content.src1 }}</div>
+<div ng-click="$ctrl.nextQuestion()">{{ $ctrl.content.src2 }}</div>
+<div ng-click="$ctrl.nextQuestion()">{{ $ctrl.content.src3 }}</div>
+<div ng-click="$ctrl.nextQuestion()">{{ $ctrl.content.src4 }}</div>
