@@ -7,6 +7,9 @@
         })
         .when('/app', {
           template: '<question></question>'
+        })
+        .when('/purses', {
+          template: '<purse-results></purse-results>'
         });
     });
 })();
