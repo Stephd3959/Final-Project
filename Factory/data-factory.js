@@ -12,7 +12,6 @@
          getData: function(){
              return answers;
          }
-         // clear data
      }
  });
 })();
