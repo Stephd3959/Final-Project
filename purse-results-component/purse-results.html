@@ -1,3 +1,5 @@
 <h1>Purse results page</h1>
-<a target="_blank" href="{{$ctrl.testurl}}">Click Here</a>
-<img src="{{$ctrl.test2url}}"/>
+<div ng-repeat="item in $ctrl.etsyresults">
+  <img src="{{item.src}}"/>
+  <a target="_blank" href={{item.url}}>Buy Me</a>
+</div>
