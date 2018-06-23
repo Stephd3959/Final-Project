@@ -16,11 +16,11 @@
           },
           {
               src: "images/car_sporty.jpg",
-           
+
             category: "sporty"
           },
           {
-           
+
             src: "images/car_OT2.jpg",
             category: "out-there"
           }
@@ -30,7 +30,7 @@
         question: "Pick a fashion icon.",
         images: [
           {
-            
+
             src: "images/icon_vintage.jpg",
             category: "vintage"
           },
@@ -137,5 +137,9 @@
           $location.path('/purses');
         };
       };
+
+      $ctrl.reset = function (){
+        DataFactory.answers = [];
+      }
   });
 })();

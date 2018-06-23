@@ -1,13 +1,13 @@
 
 img {
   height: 200px;
-  
+
 
 }
 body {
-  
+
   font-family: 'Comfortaa', cursive;
-  background: snow
+  background: white;
 }
 
 #heading{
@@ -24,7 +24,7 @@ body {
   justify-content: space-around;
 }
 #qpix{
-  border: 2px solid lightgrey; 
+  border: 2px solid lightgrey;
 }
 #qpix:hover {
   box-shadow: 7px 10px 37px 0px rgba(110,108,110,1);
