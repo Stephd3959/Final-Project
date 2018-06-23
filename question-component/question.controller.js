@@ -8,21 +8,20 @@
         question: "Pick a car.",
         images: [
           {
-            src:"images/car-vintage.jpg",
+            src:"images/car-vintage.jpg " ,
             category: "vintage"
           },
           { src: "images/car_modern.jpg",
-            // src: "http://st.motortrend.com/uploads/sites/5/2011/01/2011-chrysler-300c-v8-front-three-quarters-drivers-view-pl.jpg?interpolation=lanczos-none&fit=around|660:414",
             category: "modern"
           },
           {
               src: "images/car_sporty.jpg",
-            // src: "https://s.aolcdn.com/commerce/autodata/images/USC70PRC011A021001.jpg",
+           
             category: "sporty"
           },
           {
-            // src: "http://cdn.24.co.za/files/Cms/General/d/6127/7b7e80aff10344bdb4739711d3cde5c7.jpg",
-            src: "images/car_OT.jpg",
+           
+            src: "images/car_OT2.jpg",
             category: "out-there"
           }
         ]
@@ -31,7 +30,7 @@
         question: "Pick a fashion icon.",
         images: [
           {
-            // src: "https://i.pinimg.com/originals/8c/b2/33/8cb233b4f1021161dd47984ca7e92fe9.jpg",
+            
             src: "images/icon_vintage.jpg",
             category: "vintage"
           },
@@ -46,7 +45,6 @@
             category: "sporty"
           },
           {
-            // src: "https://i.pinimg.com/originals/48/89/11/4889113712821021454e90c6bf4d90ce.jpg",
             src: "images/icon_OT.jpg",
             category: "out-there"
           }
@@ -56,12 +54,11 @@
         question: "Pick a cocktail.",
         images: [
           {
-            // src: "http://www.girlsofto.com/wp-content/uploads/2015/06/Old-Fashioned.jpg",
             src: "images/cocktail_vintage.jpg",
+            title:"manhattan",
             category: "vintage"
           },
           {
-            // src: "http://healthwayri.com/wp-content/uploads/red-wine-large.jpg",
             src: "images/cocktail_modern.jpg",
             category: "modern"
           },
@@ -72,7 +69,7 @@
           },
           {
             // src: "https://media-cdn.tripadvisor.com/media/photo-s/0f/1b/4a/fa/bubblebath-martini.jpg",
-            src: "images/cocktail_OT.jpg",
+            src: "images/cocktail_OT2.jpg",
             category: "out-there"
           }
         ]

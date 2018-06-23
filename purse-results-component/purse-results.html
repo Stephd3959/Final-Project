@@ -1,7 +1,10 @@
 <heading></heading>
 <h1>Purse results page</h1>
+<div class="picture">
 <div ng-repeat="item in $ctrl.etsyresults">
   <img src="{{item.src}}"/>
-  <a target="_blank" href={{item.url}}>Buy Me</a>
+<div class="buyMe">
+  <a target="_blank" href={{item.url}}>Buy Me</a></div>
+</div>
 </div>
 <a href="/"><button type="button">Start Over</button></a>

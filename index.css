@@ -1,32 +1,51 @@
 
 img {
   height: 200px;
-  border: solid; 
+  
+
 }
 body {
   
   font-family: 'Comfortaa', cursive;
-  background: linen;
+  background: snow
 }
 
 #heading{
   background: #e26329;
-  opacity: .8;
-  color: linen;
+  opacity: .6;
+  color: snow;
   padding: 20px;
   text-align: center;
   font-style: italic;
 }
+.picture{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#qpix{
+  border: 2px solid lightgrey; 
+}
+#qpix:hover {
+  box-shadow: 7px 10px 37px 0px rgba(110,108,110,1);
+}
 button {
   width: 30%;
-  height: 30px;
+  height: 60px;
  border: none;
  background: #3c59a3;
  color:white;
  margin-top: 20px;
  border-radius: 5px;
  align-items:center;
+ font-weight: bold;
+ font-family: 'Comfortaa', cursive;
+font-size: 18px;
  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.3);
+}
+.buyMe{
+  width: 100%;
+  text-align: center;
 }
 #beginButton, #WelcomeMessage{
   text-align: center;
