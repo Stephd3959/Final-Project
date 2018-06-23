@@ -3,4 +3,4 @@
 <div class="picture">
 <div id ="qpix" ng-repeat="image in $ctrl.content.images" title="{{image.title}}" ng-click="$ctrl.nextQuestion(image.category)"><img src="{{ image.src }}"/></div>
 </div>
-<a href="/"><button ng-click="$ctrl.reset()" type="button">Start Over</button></a>
+<a href="/"><button ng-click="$ctrl.reset()" type="button" id="startOverBtn">Start Over</button></a>

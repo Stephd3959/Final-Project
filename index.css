@@ -29,7 +29,7 @@ body {
 #qpix:hover {
   box-shadow: 7px 10px 37px 0px rgba(110,108,110,1);
 }
-button {
+#startBtn {
   width: 30%;
   height: 60px;
  border: none;
@@ -43,14 +43,66 @@ button {
 font-size: 18px;
  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.3);
 }
+#startOverBtn{
+  border: none;
+ background: #3c59a3;
+ color:white;
+ height: 30px;
+ width: 15%;
+ padding: 2px;
+ margin-top: 20px;
+ border-radius: 5px;
+ align-items:center;
+ font-weight: bold;
+ font-family: 'Comfortaa', cursive;
+
+}
+
 .buyMe{
   width: 100%;
   text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+ }
+.buyMe a{
+  text-decoration: none;
+  background:  #e26329;
+  opacity: 0.6;
+  color: white;
+  padding: .5rem;
+  margin: 1rem auto;
+  width: 5rem;
+  display: block;
 }
-#beginButton, #WelcomeMessage{
+#beginButton, #WelcomeMessage, #resultsPix{
   text-align: center;
 
 }
-.title{
-  font-size: 36px;
+
+button:hover{
+  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+@media (max-width:768px){
+  #startOverBtn, startBtn{
+    width: 50%;
+  }
+  img{
+    height: 150px;
+  }
+
+  }
+
+
+@media (max-width:480px){
+  #startOverBtn, #startBtn{
+    width: 90%;
+  }
+ img{
+    height: 100px;
+  }
+  #heading, #WelcomeMessage{
+    font-size:12px;
+  }
 }
