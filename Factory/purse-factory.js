@@ -1,12 +1,13 @@
 (function() {
   angular.module('app')
     .factory('PurseFactory', function(DataFactory, $http) {
+
       return {
-        combinedApiCall: combinedApiCall
+        combinedApiCall: combinedApiCall,
       }
 
-
       function geturls () {
+
         var answers = DataFactory.getData();
         var vintage = answers.filter(function(item){
           return item === 'vintage';
@@ -34,8 +35,7 @@
           'out-there': ["598092588", "604459730", "232438535", "574644485"]
         }
 
-
-        return listingIds[sortedAnswers[0][0]]
+        return listingIds[sortedAnswers[0][0]];
       }
 
       function combinedApiCall(){

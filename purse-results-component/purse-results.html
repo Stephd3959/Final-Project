@@ -1,7 +1,10 @@
 <heading></heading>
-<a href="/"><button type="button" id="startOverBtn">Start Over</button></a>
+<a href="/"><button type="button" ng-click="$ctrl.reset()" id="startOverBtn">Start Over</button></a>
 <div id="resultsPix">
 <img src="images/purserresults.jpg" /> </div>
+<div class="results">
+<p>Based on your choices we think these purses best fit who you are. Top off your style by purchasing on ETSY below.</p>
+</div>
 <div class="picture">
 <div ng-repeat="item in $ctrl.etsyresults">
   <img src="{{item.src}}"/>
@@ -9,4 +12,3 @@
   <a target="_blank" href={{item.url}}>Buy Me</a></div>
 </div>
 </div>
-

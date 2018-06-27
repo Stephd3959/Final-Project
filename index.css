@@ -41,7 +41,6 @@ body {
  font-weight: bold;
  font-family: 'Comfortaa', cursive;
 font-size: 18px;
- box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.3);
 }
 #startOverBtn{
   border: none;
@@ -74,7 +73,7 @@ font-size: 18px;
   width: 5rem;
   display: block;
 }
-#beginButton, #WelcomeMessage, #resultsPix{
+#beginButton, #WelcomeMessage, #resultsPix, .results{
   text-align: center;
 
 }

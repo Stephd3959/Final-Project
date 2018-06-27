@@ -2,6 +2,7 @@
  angular.module('app')
  .factory('DataFactory', function(){
    var answers = [];
+
       return {
 
          setData: function(data){
